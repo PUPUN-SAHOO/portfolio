@@ -148,3 +148,71 @@ button {
   .hero { flex-direction: column; text-align: center; }
   .contact-box { grid-template-columns: 1fr; }
 }
+/* CONTACT BOX */
+.contact-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.resume-box {
+  background: #020617;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #22d3ee;
+}
+
+.resume-box ul { list-style: none; margin: 20px 0; }
+.resume-box li { margin-bottom: 10px; color: #ccc; }
+
+/* FORM */
+input, textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  background: transparent;
+  border: 1px solid #22d3ee;
+  color: #fff;
+  border-radius: 8px;
+}
+textarea { height: 120px; }
+button {
+  width: 100%;
+  padding: 14px;
+  background: #22d3ee;
+  border: none;
+  border-radius: 8px;
+}
+
+/* SUCCESS MESSAGE */
+#success {
+  margin-top: 10px;
+  color: #22d3ee;
+}
+
+/* SOCIAL ICONS BELOW */
+.social-icons-below {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons-below a {
+  margin: 0 15px;
+  color: #22d3ee;
+  font-size: 28px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.social-icons-below a:hover {
+  color: #0ff;
+  transform: scale(1.2);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+}
