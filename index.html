@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Laxmi Narayan Sahoo | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">Laxmi</div>
+  <nav>
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO / RESUME -->
+<section id="home" class="hero">
+  <div class="hero-img">
+    <img src="pupunsahoo.jpg.jpg" alt="Profile">
+  </div>
+
+  <div class="hero-text">
+    <p class="intro">Hi, I'm a <span>Software Developer</span></p>
+    <h1>Laxmi Narayan Sahoo</h1>
+    <p class="desc">
+      Java Backend Developer with strong knowledge of DSA,
+      REST APIs, databases, and scalable system design.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="Laxmi_Narayan_Sahoo_Resume.pdf" download class="btn primary">
+        Download CV
+      </a>
+      <a href="#projects" class="btn outline">
+        Projects
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p class="center">
+   MCA graduate with strong fundamentals in Core Java, Data Structures &amp; Algorithms, and Object-Oriented Programming. Passionate about solving complex problems and writing clean, efficient, and scalable code.Experienced in implementing DSA concepts such as arrays, strings, linked lists, stacks, queues, trees, and hash maps. Proficient in Java Collections Framework, exception handling, and basic multithreading concepts.Actively building backend-focused Java projects and consistently practicing DSA to prepare for Software Engineer (SDE-1) roles. Looking for an opportunity to contribute to high-impact engineering teams while continuously improving technical depth and system design fundamentals.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-box">Core Java, OOPs</div>
+    <div class="skill-box">DSA, Algorithms</div>
+    <div class="skill-box">REST APIs, JDBC</div>
+    <div class="skill-box">DBMS, SQL</div>
+    <div class="skill-box">Git, GitHub</div>
+    <div class="skill-box">Multithreading, JVM</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c">
+      <h3>Smart API Rate Limiting System</h3>
+      <p>Traffic control system to prevent API overload.</p>
+      <span>Java · REST · Multithreading</span>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1517602302552-471fe67acf66">
+      <h3>Movie Database Application</h3>
+      <p>Search & filter movies with JDBC & SQL.</p>
+      <span>Java · JDBC · DBMS</span>
+    </div>
+
+    <div class="project-card">
+      <img src="ats.jpg.png" alt="ATS Checker">
+
+      <h3>ATS Resume Checker</h3>
+      <p>Resume screening with skill matching.</p>
+      <span>Algorithms · Java</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT + RESUME -->
+<section id="contact">
+  <h2>Resume & Contact</h2>
+
+  <div class="contact-box">
+
+    <div class="resume-box">
+      <h3>Laxmi Narayan Sahoo</h3>
+      <p class="role">Java Backend Developer</p>
+      <ul>
+        <li>✔ Core Java & OOPs</li>
+        <li>✔ DSA & Algorithms</li>
+        <li>✔ REST APIs & DBMS</li>
+        <li>✔ Git & GitHub</li>
+      </ul>
+      <a href="Laxmi_Narayan_Sahoo_Resume.pdf" download class="btn primary">
+        Download Resume
+      </a>
+    </div>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="success"></p>
+    </form>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
