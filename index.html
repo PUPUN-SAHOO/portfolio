@@ -120,13 +120,14 @@
       </a>
     </div>
 
-    <form id="contactForm">
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Message" required></textarea>
-      <button type="submit">Send Message</button>
-      <p id="success"></p>
-    </form>
+  <form id="contactForm">
+  <input type="text" name="name" placeholder="Name" required />
+  <input type="email" name="email" placeholder="Email" required />
+  <textarea name="message" placeholder="Message" required></textarea>
+  <button type="submit">Send Message</button>
+  <p id="success"></p>
+</form>
+
 
   </div>
 </section>
@@ -178,6 +179,10 @@
 </footer>
 
 
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script src="script.js"></script>
+
+
+
 </body>
 </html>
