@@ -276,3 +276,50 @@ button:hover {
     font-size: 38px;
   }
 }
+/* ===== SOCIAL MEDIA FOOTER ===== */
+.social-footer {
+  text-align: center;
+  padding: 50px 10%;
+  background: #020617;
+  margin-top: 60px;
+}
+
+.social-footer h3 {
+  color: #22d3ee;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  color: #22d3ee;
+  transition: 0.35s;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  transform: scale(1.35) rotate(6deg);
+  color: #0ff;
+  text-shadow: 0 0 20px #22d3ee;
+}
+
+.footer-link {
+  margin-top: 20px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-link a {
+  color: #22d3ee;
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
